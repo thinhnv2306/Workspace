@@ -546,6 +546,7 @@
     animation: fadeIn ease-in 0.2s;
     cursor: default;
     display: none;
+    z-index: 3;
 }
 
 .header__cart-heading {
@@ -595,6 +596,11 @@
     color: var(--text-color);
     text-align: left;
     margin: 0;
+    /*Lam dau ba cham*/
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
 }
 
 .header__cart-item-price {
@@ -990,3 +996,57 @@
     font-size: 1.4rem;
     color: #555;
 }
+
+
+/*Product */
+
+.home-product-item {
+    margin-top: 10px;
+    background-color: var(--white-color);
+}
+
+.home-product-item__img {
+    padding-top: 100%;
+    background-size: contain;
+}
+
+.home-product-item__name {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: var(--text-color);
+    line-height: 1.8rem;
+    height: 3.6rem;
+    margin: 10px 10px;
+    overflow: hidden;
+    display: block;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    /*Lam dau ba cham nhung chi duoc 1 dong thoi*/
+    /* white-space: nowrap;
+    text-overflow: ellipsis; */
+}
+
+.home-product-item__price {}
+
+.home-product-item__price-old {}
+
+.home-product-item__price-new {}
+
+.home-product-item__action {}
+
+.home-product-item__rating {}
+
+.home-product-item__origin {}
+
+.home-product-item__brand {}
+
+.home-product-item__origin-name {}
+
+.home-product-item__favourite {}
+
+.home-product-item__sale-off {}
+
+.home-product-item__sale-off-percent {}
+
+.home-product-item__sale-off-label {}
