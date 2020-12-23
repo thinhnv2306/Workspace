@@ -1054,7 +1054,7 @@
 .home-product-item__action {
     display: flex;
     justify-content: space-between;
-    margin : 6px 10px 0;
+    margin: 6px 10px 0;
 }
 
 .home-product-item__like {
@@ -1076,39 +1076,36 @@ i.home-product-item__like-icon-fill {
 
 .home-product-item__rating {
     font-size: 0.6rem;
-    color : #d5d5d5;
-    margin : -1px 0 0 auto;
+    color: #d5d5d5;
+    margin: -1px 0 0 auto;
 }
 
 .home-product-item__star--gold {
-    color : var(--start-gold-color);
+    color: var(--start-gold-color);
 }
 
 .home-product-item__sold {
     font-size: 1.2rem;
-    color : var(--text-coloFr);
+    color: var(--text-coloFr);
     margin-left: 6px;
 }
 
 .home-product-item__origin {
     display: flex;
-    margin : 3px 10px 0;
+    margin: 3px 10px 0;
     font-weight: 300;
-    color : #595959;
-
+    color: #595959;
 }
 
 .home-product-item__brand {
     margin-right: auto;
 }
 
-.home-product-item__origin-name {
-
-}
+.home-product-item__origin-name {}
 
 .home-product-item__favourite {
     position: absolute;
-    top : 10px;
+    top: 10px;
     left: -4px;
     color: var(--primary-color);
     background-color: currentColor;
@@ -1132,10 +1129,9 @@ i.home-product-item__like-icon-fill {
 
 .home-product-item__favourite span {
     color: var(--white-color);
-
 }
 
-.home-product-item__favourite  i{
+.home-product-item__favourite i {
     font-size: 0.9rem;
     margin: 0 2px 0 5px;
     color: var(--white-color);
@@ -1144,7 +1140,7 @@ i.home-product-item__like-icon-fill {
 .home-product-item__sale-off {
     position: absolute;
     right: 0;
-    top : 0;
+    top: 0;
     width: 40px;
     height: 36px;
     background-color: rgba(255, 216, 64, 0.95);
@@ -1158,7 +1154,8 @@ i.home-product-item__like-icon-fill {
     bottom: -4px;
     border-width: 0 20px 4px;
     border-style: solid;
-    color: rgba(255, 216, 64, 0.95);;
+    color: rgba(255, 216, 64, 0.95);
+    ;
     border-color: transparent currentColor transparent currentColor;
 }
 
@@ -1168,14 +1165,18 @@ i.home-product-item__like-icon-fill {
     font-weight: 700;
     line-height: 1.2rem;
     position: relative;
-    top  : 2px;
+    top: 2px;
 }
 
 .home-product-item__sale-off-label {
     font-size: 1.4rem;
     font-weight: 700;
-    color : var(--white-color);
+    color: var(--white-color);
     line-height: 1.4rem;
     display: block;
     margin-top: 4px;
+}
+
+.home-product__pagination {
+    margin: 48px 0 32px;
 }
