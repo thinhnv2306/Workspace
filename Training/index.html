@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/grid.css">
     <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
     <link rel="stylesheet" href="./assets/fonts/fontawesome-free-5.15.1/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
 
@@ -17,8 +18,8 @@
 <body>
     <div class="app">
         <header class="header">
-            <div class="grid">
-                <nav class="header__navbar">
+            <div class="grid wide">
+                <nav class="header__navbar hide-on-mobile-tablet">
                     <ul class="header__navbar-list">
                         <li class="header__navbar-item header__navbar-item--has-qr header__navbar-item--separate">
                             Vào cửa hàng trên ứng dụng
@@ -123,7 +124,7 @@
                 <!--Header with-->
 
                 <div class="header-with-search">
-                    <div class="header__logo">
+                    <div class="header__logo hide-on-tablet">
                         <a href="/Training/index.html" class="header__logo-link"><img class="header__logo-img" src="./assets/img/logo_vnb.png" alt=""></a>
                     </div>
                     <div class="header__search">
@@ -230,7 +231,6 @@
                                         </div>
                                     </li>
                                 </ul>
-
                                 <button class="header__cart-view-cart btn btn--primary">Xem giỏ hàng</button>
                             </div>
                         </div>
@@ -239,7 +239,7 @@
             </div>
         </header>
         <div class="app__container">
-            <div class="grid">
+            <div class="grid wide">
                 <div class="grid__row app__content ">
 
                     <div class="grid__column-2">
@@ -263,7 +263,7 @@
                     </div>
 
                     <div class="grid__column-10">
-                        <div class="home-filter">
+                        <div class="home-filter hide-on-mobile-tablet">
                             <span class="home-filter__label">Sắp xếp theo</span>
                             <button class="home-filter__btn btn">Phổ biến</button>
                             <button class="home-filter__btn btn btn--primary">Mới nhất</button>
@@ -768,7 +768,7 @@
         </div>
 
         <footer class="footer">
-            <div class="grid">
+            <div class="grid wide">
                 <div class="grid__row">
                     <div class="grid__column-2-4">
                         <h3 class="footer__heading">Chăm sóc khách hàng</h3>
@@ -816,18 +816,18 @@
                         <h3 class="footer__heading">Theo dõi</h3>
                         <ul class="footer-list">
                             <li class="footer-item">
-                                <a href="" class="footer-item__link">
-                                    <i class="fab fa-facebook"></i> Facebook
+                                <a href="" class="footer-item__link ">
+                                    <i class="footer-item__icon fab fa-facebook"></i> Facebook
                                 </a>
                             </li>
                             <li class="footer-item">
-                                <a href="" class="footer-item__link">
-                                    <i class="fab fa-linkedin"></i> Linkedi
+                                <a href="" class="footer-item__link ">
+                                    <i class="footer-item__icon fab fa-linkedin"></i> Linkedi
                                 </a>
                             </li>
                             <li class="footer-item">
-                                <a href="" class="footer-item__link">
-                                    <i class="fab fa-instagram"></i> Instagram
+                                <a href="" class="footer-item__link ">
+                                    <i class="footer-item__icon fab fa-instagram"></i> Instagram
                                 </a>
                             </li>
                         </ul>
@@ -838,13 +838,22 @@
                         <div class="footer__download">
                             <img src="/Workspace/Workspace/Training/assets/img/qr_code.png" alt="Download QR" class="footer__download-qr">
                             <div class="footer__download-app">
-                                <img src="/Workspace/Workspace/Training/assets/img/app_store.png" alt="Appstore" class="footer__download-app-img">
-                                <img src="/Workspace/Workspace/Training/assets/img/google_play.png" alt="Google Play" class="footer__download-app-img">
+                                <a href="" class="footer__download-app-link">
+                                    <img src="/Workspace/Workspace/Training/assets/img/app_store.png" alt="Appstore" class="footer__download-app-img">
+                                </a>
+                                <a href="" class="footer__download-app-link">
+                                    <img src="/Workspace/Workspace/Training/assets/img/google_play.png" alt="Google Play" class="footer__download-app-img">
+                                </a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="grid__row">
+
+
+            </div>
+
+            <div class="footer__bottom">
+                <div class="grid wide">
                     <p class="footer__text">Bản quyền thuộc về NVT Shop</p>
                 </div>
             </div>
